@@ -15,8 +15,8 @@ h2 {
   line-height: 1.5;
 }
 
- h3 {
-   font-family: 'Montserrat-Bold' !important;
+h3 {
+  font-family: 'Montserrat-Bold' !important;
 }
 
 p {
@@ -72,7 +72,7 @@ p {
 /* Features section */
 #features {
   padding: 6% 15%;
-  background-color: #fff;
+  background-color: #ffff;
   position: relative;
   z-index: 1;
 }
@@ -83,8 +83,8 @@ p {
 }
 
 .icon {
-   color: #ef8172;
-   margin-bottom: 1rem;
+  color: #ef8172;
+  margin-bottom: 1rem;
 }
 
 /* Mouse Hover */
@@ -100,24 +100,24 @@ p {
 }
 
 .testimonial-image {
-   width: 15%;
-   border-radius: 100%;
-   margin: 20px;
- }
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
 
- #press {
-   background-color: #ef8172;
-   text-align: center;
-   padding-bottom: 5%;
- }
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 5%;
+}
 
- .press-size {
-   width: 10%;
- }
+.press-size {
+  width: 10%;
+}
 
- .carousel-item {
-   padding: 7% 15%;
- }
+.carousel-item {
+  padding: 7% 15%;
+}
 
 #pricing {
   padding: 8%;
@@ -126,4 +126,24 @@ p {
 
 .pricing-columns {
   padding: 2% 3%;
+}
+
+@media (max-width : 1000px) {
+
+  .container-fluid {
+    padding-bottom: 70% !important;
+    text-align: center;
+  }
+
+  .download-image {
+    position: static;
+    transform: rotate(0);
+    position: absolute;
+    left: 20%;
+  }
+
+  #features {
+    position: relative;
+    z-index: 1;
+  }
 }
