@@ -128,6 +128,32 @@ p {
   padding: 2% 3%;
 }
 
+/* CTA Section */
+
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  color: #ffff;
+  text-align: center;
+}
+
+.cta-heading {
+    font-family: "Montserrat-Black" !important;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer Section */
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
 @media (max-width : 1000px) {
 
   .container-fluid {
